@@ -46,12 +46,8 @@
 </script>
 
 <Layout>
-  <Modal title="Terms of Service" bind:open={defaultModal} autoclose>
+  <Modal title="Crear usuario" bind:open={defaultModal} autoclose>
     <form on:submit|preventDefault={enviarFormulario}>
-      <!-- <label>
-        Nombre:
-        <input type="text" bind:value={name} />
-      </label> -->
 
       <div class="mb-6">
         <Label for="name" class="block mb-2">Nombre</Label>
